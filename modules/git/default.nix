@@ -1,10 +1,9 @@
-{ config, pkgs, lib, libs, ... }:
+{ ... }:
 {
   programs.git = {
     enable = true;
     userName = "Francesco La Camera";
     userEmail = "fm@lacamera.org";
-
     delta = {
       enable = true;
     };

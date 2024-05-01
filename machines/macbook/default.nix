@@ -1,7 +1,11 @@
 { config, pkgs, libs, ... }: {
   imports = [
-    ../../modules/gh
+    ../../modules/go
+    ../../modules/git
+    # ../../modules/rust
+    # ../../modules/node
     ../../modules/nvim
+    # ../../modules/clang
     ../../modules/wezterm
   ];
 
